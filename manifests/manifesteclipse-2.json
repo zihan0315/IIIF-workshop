@@ -5,11 +5,11 @@
   "label" : "Eclipse",
   "metadata" : [ ],
   "description" : [ {
-    "@value" : "Zihan's Cat",
+    "@value" : "Zihan's Cat Eclipse",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "This is for attribution",
+  "attribution" : "There is no attribution",
   "sequences" : [ {
     "@id" : "http://4987192f-b160-472a-aeaf-5d0b8508b9cf",
     "@type" : "sc:Sequence",
