@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://zihan0315.github.io/IIIF-workshop/manifests/manifesteclipse-2.json",
     "label" : "Eclipse"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://zihan0315.github.io/IIIF-workshop/manifests/manifesteclipsecopy.json",
+    "label" : "Eclipse"
   } ]
 }
