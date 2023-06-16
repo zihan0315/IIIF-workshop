@@ -1,0 +1,78 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://zihan0315.github.io/IIIF-workshop/manifests/manifesteclipsecopy.json",
+  "@type" : "sc:Manifest",
+  "label" : "Eclipse",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Eclipse_Zihan's_Cat",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Copyright by Zihan Feng",
+  "sequences" : [ {
+    "@id" : "http://4987192f-b160-472a-aeaf-5d0b8508b9cf",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://c0cdcc6a-747b-4a23-b152-f910fda34b5c",
+      "@type" : "sc:Canvas",
+      "label" : "Eclipse Image 1",
+      "height" : 3362,
+      "width" : 1760,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://16db3106-2d22-4eb3-b7a8-99ede6238b33",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/Eclipse_202306/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/Eclipse_202306",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3362,
+          "width" : 1760
+        },
+        "on" : "http://c0cdcc6a-747b-4a23-b152-f910fda34b5c"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://5b79b825-687c-4c0c-ab28-48e93c264ff0",
+      "@type" : "sc:Canvas",
+      "label" : "Eclipse Image 2",
+      "height" : 1262,
+      "width" : 951,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://28d3bb70-7066-4952-8cbf-cd41b44d38a5",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/Eclipse2_202306/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/Eclipse2_202306",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1262,
+          "width" : 951
+        },
+        "on" : "http://5b79b825-687c-4c0c-ab28-48e93c264ff0"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ],
+  "thumbnail" : {
+    "@id" : "http://c0cdcc6a-747b-4a23-b152-f910fda34b5c"
+  }
+}
