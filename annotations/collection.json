@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://zihan0315.github.io/IIIF-workshop/annotations/Eclipseimage1annotation.json" ],
+  "otherContent" : [ "https://zihan0315.github.io/IIIF-workshop/annotations/Eclipseimage1annotation.json", "https://zihan0315.github.io/IIIF-workshop/annotations/Eclipseimage2annotation.json" ],
   "@id" : "https://zihan0315.github.io/IIIF-workshop/annotations/collection.json",
   "label" : "All annotations loaded in zihan0315/IIIF-workshop project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
