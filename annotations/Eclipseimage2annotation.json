@@ -1,0 +1,51 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "cat",
+      "@type" : "oa:Tag",
+      "chars" : "cat"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "eye",
+      "@type" : "oa:Tag",
+      "chars" : "eye"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Eclipse",
+      "@type" : "oa:Tag",
+      "chars" : "Eclipse"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Eclipse's right eye",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Eclipse's right eye</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/135639470",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2023-06-20T14:18:29",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1687270709236",
+    "dcterms:modified" : "2023-06-20T14:18:29",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://zihan0315.github.io/IIIF-workshop/manifests/manifesteclipse-2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=470,532,101,99"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M484.89554,546.65307c9.35024,-8.28116 22.54026,-14.44785 35.79421,-14.44048v0v0c13.25394,0.00737 24.80035,5.77621 35.79421,14.44048c10.99385,8.66427 15.26703,21.86695 14.82645,34.86241c-0.44058,12.99546 -5.59491,25.78371 -14.82645,34.86241c-9.23153,9.0787 -22.54026,14.44785 -35.79421,14.44048c-13.25394,-0.00737 -26.4531,-5.39125 -35.79421,-14.44048c-9.34111,-9.04923 -14.82416,-21.7638 -14.82645,-34.86241c-0.00228,-13.09861 5.47621,-26.58126 14.82645,-34.86241z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_ada786e9-a9ef-4a15-b059-790bbf064800\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://5b79b825-687c-4c0c-ab28-48e93c264ff0"
+    } ]
+  } ],
+  "@id" : "https://zihan0315.github.io/IIIF-workshop/annotations/Eclipseimage2annotation.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
